@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+
 output_folder = "Frequency_Domain_feature_extraction_plots"
 
 os.makedirs(output_folder, exist_ok=True)

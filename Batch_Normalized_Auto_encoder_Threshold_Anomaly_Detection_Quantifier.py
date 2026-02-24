@@ -8,7 +8,7 @@ import torch.nn as nn
 import torch.optim as optim
 
 
-win_size = 256        # samples per window
+win_size = 256         # samples per window
 step = 128            # step between windows (50% overlap)
 latent_dim = 12       # latent dimension for VAE
 hidden_dims = [128,64] # hidden layers

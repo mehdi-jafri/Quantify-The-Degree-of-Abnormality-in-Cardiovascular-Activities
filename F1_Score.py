@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.font_manager import FontProperties
 
-
+ 
 df = pd.read_csv("Performance\\F1.txt", sep="\t", header=None)
 
 df.columns = ["Samples", "OQ-BNA", "DenseNet ABiLSTM", "TQCPat", "PPG-NET"]
